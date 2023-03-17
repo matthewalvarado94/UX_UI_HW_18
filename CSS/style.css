@@ -1,0 +1,86 @@
+* {
+    background-color: rgb(230, 218, 164);
+    color: rgb(34, 71, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inline-block{
+    display: inline-flex;
+    vertical-align: top;
+    width: auto;
+    
+     
+}
+
+.navigation {
+    
+}
+
+.logo{
+    width: 23%;
+ padding: 1%;
+ text-align: center;
+
+}
+nav{
+    width: 73%;
+    padding: 1%;
+    
+}
+
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    position:relative; left:37%;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10%;
+    align-content: center;
+    
+}
+
+.me {
+    padding-left: 35%;
+}
+
+footer{
+    
+    color: white;
+    width: 100%;
+    text-align: right;
+    display: inline;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+footer ul{
+
+    text-align: center;
+    padding: .5%;
+    padding-left: 70%;
+    display: inline;
+    margin: 2px;
+}
+
+
+.header-list {
+    display: inline;
+    padding: 10px;
+}
+
+.footer-li {
+    padding-right: 20px;
+}
