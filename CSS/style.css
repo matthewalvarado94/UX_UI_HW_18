@@ -2,6 +2,9 @@
     background-color: rgb(230, 218, 164);
     color: rgb(34, 71, 173);
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
+
 }
 
 .inline-block{
@@ -14,6 +17,11 @@
 
 .navigation {
     
+
+}
+.header-list {
+    display: inline;
+    padding: 10px;
 }
 
 .logo{
@@ -33,14 +41,13 @@ nav{
     padding: 25px;
 }
 
-p {
+.content p {
     text-align: center;
 }
 
 
-button {
-    background-color: white;
-    border-radius: 10px;
+.content button {
+    
     position:relative; left:37%;
 }
 
@@ -56,7 +63,79 @@ button {
     padding-left: 35%;
 }
 
-footer{
+
+.mySkills {
+    margin-bottom: 10%;
+}
+
+.mySkills h1 {
+    margin-left: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.flexContainer {
+    display: flex;
+    margin-right: 7%;
+    margin-left: 3%;
+    border: 1px;
+}
+
+.skillsChild {
+    margin-left: 10%;
+    width: 33%;
+    margin-right: 10%;
+}
+
+.workImage img {
+    max-width: 100%;
+    height: auto;
+ }
+
+.workDescription {
+    width: 70%;
+   
+    margin-top: 5%;
+    
+}
+
+.workDescription p, h4 {
+    text-align: left;
+}
+
+.workDescription button {
+    text-align: center;
+    
+}
+
+.myWork {
+    margin-left: 11%
+}
+
+.myWork h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 12%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 3px;
+    justify-items: stretch;
+    align-items: stretch;
+    
+ }
+
+.viewAll {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+ footer{
     
     color: white;
     width: 100%;
@@ -76,11 +155,40 @@ footer ul{
 }
 
 
-.header-list {
-    display: inline;
-    padding: 10px;
-}
+
 
 .footer-li {
     padding-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 600) {
+
+    .flexContainer {
+        display: flex;
+    margin-right: 7%;
+    margin-left: 3%;
+    border: 1px;
+        flex-direction: column;
+    }
+
+    .skillsChild {
+        margin-left: 10%;
+    
+        margin-right: 10%;
+        width: 100%;
+    }
+
+    .wordGrid {
+        display: grid;
+      
+        
+        grid-row-gap: 3px;
+        justify-items: stretch;
+        align-items: stretch;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
