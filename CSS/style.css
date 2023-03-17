@@ -19,6 +19,13 @@
     
 
 }
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
 .header-list {
     display: inline;
     padding: 10px;
@@ -43,12 +50,13 @@ nav{
 
 .content p {
     text-align: center;
+    font-size: 24px;
 }
 
 
 .content button {
     
-    position:relative; left:37%;
+    position:relative; left:35%;
 }
 
 .content{
@@ -105,6 +113,7 @@ nav{
 
 .workDescription button {
     text-align: center;
+    width: 100px;
     
 }
 
@@ -128,6 +137,8 @@ nav{
     align-items: stretch;
     
  }
+
+
 
 .viewAll {
     text-align: center;
@@ -163,7 +174,11 @@ footer ul{
 
 
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
+
+* {
+    background-color: aqua;
+}
 
     .flexContainer {
         display: flex;
@@ -182,13 +197,10 @@ footer ul{
 
     .wordGrid {
         display: grid;
-      
-        
         grid-row-gap: 3px;
         justify-items: stretch;
         align-items: stretch;
-
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+       
     }
 }
